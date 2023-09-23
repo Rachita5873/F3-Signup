@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Festive&family=Macondo&family=Mulish:wght@200&family=Quattrocento+Sans:wght@700&family=Quattrocento:wght@400;700&family=Roboto:wght@100&family=Ruda&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h5 style="width: 116px;height: 22.32px; top: 148px;color: #757575; size: 14px; line-height:17px;font-family: 'Mulish', sans-serif;">Welcome back!👋</h5>
+            <h4 style="width: 30vw;height: 37px;top: 170px;left: 466px; font-family: Mulish; font-size: 2vw;font-weight: 700;letter-spacing: 0em;text-align: left;">Sign up to your account</h4>
+            <form action="profile.html">
+                <label id="one">Your name</label>
+                <br>
+                <input type="text" id="name" required>
+                <br>
+                <label id="two">Your email</label>
+                <br>
+                <input type="email" id="email" required>
+                <br>
+                <label id="three">Password</label>
+                <br>
+                <input type="password" id="password1" required>
+                <br>
+                <label id="four">Confirm password</label>
+                <br>
+                <input type="password" id="password2" required>
+                <br>
+                <button type = "submit"; id="btn" onclick="addData()">Submit</button>
+                <br>
+                <h6 id="error1" style="margin-top: 8px; display: none;">Important: All fields are mandatory!</h6>
+            </form>
+        </div>
+        <div style="padding-top: 13px;">        
+            <h6>Don't have an account? <button id="signBtn" style="color: #625BF7; border: none; font-size: smaller;">Sign up</button></h6>
+        </div>
+
+    </div>
+ <script src="script.js"></script>   
+</body>
+</html>

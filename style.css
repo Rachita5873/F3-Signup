@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-top: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    background: url(Background\ Pattern.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    border: 1px solid blue;
+    padding: 20px;
+    border-radius: 4px;
+    height: 70vh;
+    width: 40vw;
+}
+#main1 {
+    padding: 20px;
+    border-radius: 4px;
+    height: 70vh;
+    width: 40vw;
+    background-color: white;
+    box-shadow: 0px 6px 8px 0px #0000000D;
+
+}
+.para {
+    display: flex;
+}
+
+#one,#two,#three,#four {
+    width: 20vw;
+    height: 15px;
+    left: 464px;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333333;
+
+
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 35vw;
+height: 30px;
+top: 245px;
+left: 464px;
+padding: 0px, 12px, 0px, 12px;
+border-radius: 1px;
+border: 1px;
+gap: 12px;
+border: 1px solid black;
+
+}
+
+#btn{
+    width: 34vw;
+height: 30px;
+margin-top: 15px;
+left: 464px;
+padding: 9px, 14px, 9px, 14px;
+border-radius: 2px;
+gap: 10px;
+background: linear-gradient(180deg, #625BF7 0%, #463EEA 100%);
+color: white;
+}
+
+#error1{
+    width: 30vw;
+height: 37px;
+padding-top: 20px;
+top: 577px;
+left: 464px;
+font-family: Mulish;
+font-size: 18px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+color: #625BF7;
+}
+
+
+.imgg{
+    
+        display: flex; /* Use flexbox for centering */
+        justify-content: center; /* Center horizontally */
+      
+      
+}
+
+.img2{
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+}
